@@ -12,13 +12,19 @@
   <header><span class="brand" lang="en">PocketTok</span>
     <h1>포켓톡 Windows 다운로드</h1>
     <p>이 PC에서 포켓톡을 실행하세요. 채팅, 일정, 영수증과 계정 정보는 내 PC에 저장됩니다.</p>
-    <a class="button" href="https://github.com/buldak-ia1/pockettok-downloads/releases/download/windows-local-20261103/PocketTok-Ready.exe">Windows 실행 파일 다운로드</a>
-    <div class="meta">Windows x64 · 약 210 MB · 2026.11.03</div>
+    <a class="button" href="https://github.com/buldak-ia1/pockettok-downloads/releases/download/windows-local-ai-20261103/PocketTok-Ready.exe">Windows 실행 파일 다운로드</a>
+    <div class="meta">Windows x64 · 약 210 MB · 로컬 AI 자동 준비</div>
   </header>
   <section><h2>처음 실행하기</h2><ol>
-    <li>다운로드한 <strong>PocketTok-Ready.exe</strong>를 두 번 클릭하세요. 첫 실행 때 약 621 MB의 구성 파일을 풉니다.</li>
+    <li>이전 버전을 사용 중이면 알림 영역에서 종료한 뒤, 다운로드한 <strong>PocketTok-Ready.exe</strong>를 두 번 클릭하세요. 첫 실행 때 약 621 MB의 구성 파일을 풉니다.</li>
     <li>기본 브라우저에 <code>http://127.0.0.1:53127/home</code>이 열리면 이 PC에서 사용할 계정을 만드세요.</li>
     <li>앱을 종료하려면 Windows 알림 영역의 포켓톡 아이콘을 오른쪽 클릭하고 <strong>포켓톡 종료</strong>를 선택하세요.</li>
-  </ol><p>데이터 저장 위치는 <code>%LOCALAPPDATA%\PocketTokLocal\data</code>입니다. 한글 OCR이 포함되어 있습니다. AI 모델, 지도·날씨 조회, 통화 기능은 별도 설정이 필요합니다.</p></section>
-  <footer><a href="https://github.com/buldak-ia1/pockettok-downloads/releases/tag/windows-local-20261103">릴리스 정보 및 파일 검증값</a></footer>
+  </ol><p>데이터 저장 위치는 <code>%LOCALAPPDATA%\PocketTokLocal\data</code>입니다. 한글 OCR이 포함되어 있습니다.</p></section>
+  <section><h2>로컬 AI 자동 준비</h2><p>포켓톡이 이 PC의 Ollama를 시작하고 영수증·방 AI에 필요한 모델을 받습니다. 모두 처음 받는 PC는 다운로드가 약 10 GB이며, 여유 공간은 12 GB 이상을 권장합니다. 이미 설치된 모델은 재사용합니다. 알림 영역의 포켓톡 아이콘에서 <strong>AI 준비 상태</strong>를 확인하세요.</p></section>
+  <section><h2>다른 PC에 API 키 가져오기</h2><ol>
+    <li>원래 PC에서 이 버전을 열고 포켓톡 알림 영역 메뉴의 <strong>API 키 내보내기</strong>를 선택하세요. 암호를 정해 <strong>PocketTok.keys</strong>를 저장하세요.</li>
+    <li>새 PC로 키 파일을 옮겨 EXE와 같은 폴더에 놓고 실행하세요. 암호를 한 번 입력하면 그 Windows 계정에 저장됩니다.</li>
+    <li>이미 실행 중이면 <strong>API 키 가져오기</strong>를 선택하고 포켓톡을 종료한 뒤 다시 여세요.</li>
+  </ol><p>카카오·기상청·TMAP 키를 지원합니다. 이 PC의 Windows 환경 변수와 포켓톡에 저장된 키도 자동으로 읽습니다. 카카오 지도를 사용하려면 해당 앱의 허용 도메인에 <code>http://127.0.0.1:53127</code>을 등록하세요.</p></section>
+  <footer><a href="https://github.com/buldak-ia1/pockettok-downloads/releases/tag/windows-local-ai-20261103">릴리스 정보 및 파일 검증값</a></footer>
 </main></body></html>
