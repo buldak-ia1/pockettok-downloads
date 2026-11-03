@@ -1,21 +1,7 @@
 # PocketTok Windows 다운로드
 
-Windows 10/11 64비트용 PocketTok 실행 패키지입니다.
+[포켓톡 다운로드 사이트](https://buldak-ia1.github.io/pockettok-downloads/)에서 **Windows 실행 파일 다운로드**를 선택하세요. [EXE 바로 받기](https://github.com/buldak-ia1/pockettok-downloads/releases/latest/download/PocketTok-Ready.exe)
 
-**[실행 파일 다운로드](https://github.com/buldak-ia1/pockettok-downloads/releases/latest/download/PocketTok-Ready.exe)**
+Windows x64에서 EXE를 두 번 클릭하면 구성 파일을 풀고 기본 브라우저에서 포켓톡을 엽니다. 앱은 이 PC의 로컬 서버에서 실행되며 계정과 작업 내용은 `%LOCALAPPDATA%\PocketTokLocal\data`에 저장됩니다. Windows 알림 영역에서 포켓톡 아이콘을 오른쪽 클릭한 뒤 **포켓톡 종료**를 선택하세요.
 
-[전체 배포 파일 및 사용 안내](https://github.com/buldak-ia1/pockettok-downloads/releases/latest)
-
-1. `PocketTok-Ready.exe`를 다운로드하고 더블클릭합니다.
-2. 첫 실행의 자동 압축 해제가 끝나면 브라우저가 열립니다.
-3. 사용 중에는 실행 창을 열어 두세요. 창에서 `Ctrl+C`를 누르면 종료됩니다.
-
-Python·Node.js·앱 의존성·PDF용 Chromium을 포함합니다. 별도 개발 도구 설치는 필요하지 않습니다.
-약 298MB를 다운로드하며 첫 실행에는 약 1.5GB의 여유 공간을 권장합니다.
-데이터는 `%LOCALAPPDATA%\PocketTok\data`에 저장됩니다.
-
-OCR은 Tesseract, 통화/화면 공유는 LiveKit, 지도는 별도 API 설정이 필요합니다.
-이 실행 파일에는 코드 서명이 없습니다.
-
-패키지 실행, DB 초기화, 협업 서버, 상태 API와 첫 화면 HTML 응답을 검증했습니다.
-전체 기능의 사용자 시나리오 검증은 수행하지 않았습니다.
+[전체 릴리스와 버전별 사용 안내](https://github.com/buldak-ia1/pockettok-downloads/releases)
